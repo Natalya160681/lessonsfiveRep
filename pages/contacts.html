@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu">
+            <div class="container-menu">
+                <h1>
+                    <a href="../index.html">Menu</a>
+                </h1>
+                <nav class="container-nav">
+                    <ul class="color-ul">
+                        <li>
+                            <a href="about.html" class="color-text">About</a>
+                        </li>
+                        <li>
+                            <a href="articles.html" class="color-text">Articles</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html" class="color-text">Contacts</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html" class="color-text">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="anchors.html" class="color-text">Anchors</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div>
+            <h1>Contacts</h1>
+            <p>
+                <b>Пропонуємо заповнити наступну анкету, та надати контактні дані для консультації</b>
+            </p>
+        </div>
+        <form id="callus1">
+            <fieldset class="container-contacts">
+                <legend>Контакти</legend>
+                <div class="form">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{7}" required>
+                </div>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset class="container-contacts">
+                <legend>Вибір курсу</legend>
+
+                <div class="form">
+                    <label for="course">Курс:</label>
+                    <select class="select-option" id="course" name="course">
+                        <option value="dm">Digital Marketing</option>
+                        <option value="ppc">PPC junior</option>
+                        <option value="">SEO junior</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Надіслати" class="btn-wrapper">
+        </form>
+    </main>
+    <footer class="footer">
+        <h1>
+            Footer
+        </h1>
+        <form>
+        <fieldset class="container-nav">
+            <p>Звʼязатися з нами</p>
+            <div>
+                <ul>
+                    <li>Київ
+                        <ul>
+                            <li>
+                                <a href="tel">3804400000</a>
+                            </li>
+                            <li>
+                                <a href="tel">3804400000</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Одеса
+                        <ul>
+                            <li>
+                                <a href="tel">3804400000</a>
+                            </li>
+                            <li>
+                                <a href="tel">3804400000</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </fieldset>
+    </form>
+    </footer>
+</body>
+
+</html>
